@@ -2,35 +2,18 @@
 
 
 	/**
-	 * main - check the code.
-	 *
-	 * Return: Always 0.
+	 * add - adds two integers and returns the result
+	 * @a: int to be added to b
+	 * @b: int to be added to a
+	 * Return: sum of a and b
 	 */
-	int main(void)
+	int add(int a, int b)
 	{
-	    int r;
+		int c;
 
 
-	    r = print_sign(98);
-	    _putchar(',');
-	    _putchar(' ');
-	    _putchar(r + '0');
-	    _putchar('\n');
-	    r = print_sign(0);
-	    _putchar(',');
-	    _putchar(' ');
-	    _putchar(r + '0');
-	    _putchar('\n');
-	    r = print_sign(0xff);
-	    _putchar(',');
-	    _putchar(' ');
-	    _putchar(r + '0');
-	    _putchar('\n');
-	    r = print_sign(-1);
-	    _putchar(',');
-	    _putchar(' ');
-	    _putchar(r + '0');
-	    _putchar('\n');
-	    return (0);
+		c = a + b;
+
+
+		return (c);
 	}
-
